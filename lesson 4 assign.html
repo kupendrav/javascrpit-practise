@@ -15,6 +15,11 @@
       border: 5px;
       border-color: black;
     }
+    .dot:hover{
+      pointer-events: painted;
+      position: relative;
+      background-color: aliceblue;
+    }
   </style>
   <title>Document</title>
 </head>
@@ -23,7 +28,7 @@
     alert('loading..')
     
     " >Add to cart</button>
-<button class="dot" >Buy now</button>
+<button class="dot" onclick="alert('loader')">Buy now</button>
 
 <script>
   alert('Welocome to amazon');
