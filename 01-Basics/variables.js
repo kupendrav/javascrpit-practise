@@ -6,4 +6,11 @@ accountCity = 'banglore'
 // accoundId = 34
 // const cannot be changed
 
+
+accountEmail = 'hdfc@gmail.com'
+accountPassword = '99'
+accountCity = 'banglore'
+
 console.log(accoundId);
+
+console.table([accoundId,accountEmail,accountPassword,accountCity])
